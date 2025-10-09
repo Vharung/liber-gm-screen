@@ -1,0 +1,53 @@
+{
+  "id": "liber-gm-screen",
+  "title": "Liber GM Screen",
+  "description": "Un écran de Maître du Jeu complet pour le système Liber Chronicles, offrant des raccourcis, résumés de règles et outils de gestion rapides.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Alexandre Crochet",
+      "url": "https://leschroniquesdeliber.fr",
+      "discord": "AlexandreC#0000"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "scripts/liber-gm-screen.js"
+  ],
+  "styles": [
+    "styles/liber-gm-screen.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "packs": [],
+  "dependencies": [
+    {
+      "id": "liber-chronicles",
+      "type": "system"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "liber-chronicles",
+        "type": "system",
+        "compatibility": { "minimum": "1.0.0" }
+      }
+    ]
+  },
+  "url": "https://github.com/Vharung/liber-gm-screen",
+  "manifest": "https://raw.githubusercontent.com/Vharung/liber-gm-screen/main/module.json",
+  "download": "https://github.com/Vharung/liber-gm-screen/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "bugs": "https://github.com/leschroniquesdeliber/liber-gm-screen/issues",
+  "changelog": "https://github.com/leschroniquesdeliber/liber-gm-screen/CHANGELOG.md"
+}
