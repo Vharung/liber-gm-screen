@@ -5,8 +5,9 @@
   "version": "1.0.0",
   "authors": [
     {
-      "name": "Vharung",
-      "url": "https://leschroniquesdeliber.fr"
+      "name": "Alexandre Crochet",
+      "url": "https://leschroniquesdeliber.fr",
+      "discord": "AlexandreC#0000"
     }
   ],
   "compatibility": {
@@ -28,12 +29,6 @@
     }
   ],
   "packs": [],
-  "dependencies": [
-    {
-      "id": "liber-chronicles",
-      "type": "system"
-    }
-  ],
   "relationships": {
     "requires": [
       {
@@ -43,9 +38,9 @@
       }
     ]
   },
-  "url": "https://github.com/Vharung/liber-gm-screen",
-  "manifest": "https://raw.githubusercontent.com/Vharung/liber-gm-screen/main/module.json",
-  "download": "https://github.com/Vharung/liber-gm-screen/archive/refs/heads/main.zip",
+  "manifest": "https://leschroniquesdeliber.fr/foundryvtt/liber-gm-screen/module.json",
+  "download": "https://leschroniquesdeliber.fr/foundryvtt/liber-gm-screen/liber-gm-screen.zip",
+  "readme": "https://leschroniquesdeliber.fr/foundryvtt/liber-gm-screen/README.md",
   "license": "MIT",
   "bugs": "https://github.com/leschroniquesdeliber/liber-gm-screen/issues",
   "changelog": "https://github.com/leschroniquesdeliber/liber-gm-screen/CHANGELOG.md"
